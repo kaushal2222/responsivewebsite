@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+      
+    }
     .nav1{
-      background-color: greenyellow;
+      background-color: #1abc9c;
       justify-content: center;
       display: flex;
       flex-direction: column;
@@ -24,7 +29,33 @@
   .nav2 ul li a{
     text-decoration: none;
     color: white;
+    padding: 10px
   }
+  .nav2 ul li{
+    padding: 12px;
+  }
+  .nav2 ul li a:hover{
+    background-color: white;
+    color: black;
+  }
+  .papa{
+    display: flex;
+  }
+  .beta1{
+    background-color: #f1f1f1;
+    width: 30%;
+  }
+  .image1{
+    background-color: grey;
+    height: 200px;  
+    padding: 20px;  
+    margin: 20px;
+  }
+  .beta2{
+    border: 1px solid red;
+    width: 70%;
+  }
+
   </style>
 </head>
 <body>
@@ -43,6 +74,27 @@
     
   </nav>
 </header>
+
+<div class="papa">
+  <aside class="beta1">
+    <h1 class="about" style="padding: 20px;">About me</h1>
+    <span class="span" style="padding: 20px;">photo of me:</span>
+    <div class="image1">
+      image
+    </div>
+    <span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique aperiam cumque laudantium delectus eum maxime at laborum, nam vel modi! Fugiat id ipsum ullam ratione eum dolor cumque reiciendis.
+    </span>
+    <h1 style="padding: 20px;">More text</h1>
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+  </aside>
+  <main class="beta2">
+    <h1 class="about"  style="padding: 20px;">Title Heading</h1>
+    <span class="span"  style="padding: 20px;">Title description, Dec 10,2025</span>
+  </main>
+
+</div>
  
 </body>
 </html>
